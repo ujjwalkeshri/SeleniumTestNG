@@ -76,7 +76,7 @@ public class SauceLabLoginTestPageFactory {
                 .setPassword(ReadLoginDetails.loginDataList.get(1).getPassword())
                 .unsuccessfulLogin()
                 .getErrorMessage();
-
+        System.out.println("I am on second test");
         Assert.assertEquals(errorMessage, "Epic sadface: Sorry, this user has been locked out.");
     }
 
