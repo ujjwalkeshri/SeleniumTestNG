@@ -1,0 +1,7 @@
+com\testngSelenium\tests\SauceLabLoginTestPageFactory.class
+com\testngSelenium\pageFactory\ProductPageFactory.class
+com\testngSelenium\utilities\ReadLoginDetails.class
+com\testngSelenium\pageFactory\LoginPageFactory.class
+com\testngSelenium\tests\TestNGAnnotations.class
+com\testngSelenium\OrangeHRM\AddEmployee.class
+com\testngSelenium\utilities\LoginData.class
