@@ -6,6 +6,7 @@
             <class name="com.testngSelenium.tests.SauceLabLoginTestPageFactory">
             <methods>
                 <include name="locked_out_user_Test"/>
+                <include name="locked_out_user_Test2"/>
                 <include name="successfulLoginTest"/>
                 <include name="addToCartTest"/>
             </methods>

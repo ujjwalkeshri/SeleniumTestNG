@@ -70,5 +70,15 @@ public class SauceLabLoginTestPageFactory {
         Assert.assertEquals(errorMessage, "Epic sadface: Sorry, this user has been locked out.");
     }
 
+    @Test
+    public void locked_out_user_Test2() {
+        String errorMessage = loginPage.setUsername(ReadLoginDetails.loginDataList.get(1).getUsername())
+                .setPassword(ReadLoginDetails.loginDataList.get(1).getPassword())
+                .unsuccessfulLogin()
+                .getErrorMessage();
+
+        Assert.assertEquals(errorMessage, "Epic sadface: Sorry, this user has been locked out.");
+    }
+
 
 }
